@@ -1,12 +1,12 @@
 import TopBar from "./componenet/topbar/topbar";
 
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div className="topbar">
-     
-     
+    <div>
       <TopBar />
+      <Home />
     </div>
   );
 }
