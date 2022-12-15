@@ -1,24 +1,30 @@
-.header-section {
-  margin-top: 50px;
-}
+
+
 
 .hero-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Nunito Sans", "sans-serif";
-  color: #6666;
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(255, 255, 255);
   font-style: italic;
+  text-transform: uppercase;
 }
 
 .hero-text-tittle {
   position: absolute;
-  top: 15%;
+  top: 22%;
   font-size: 90px;
 }
 
 .hero-text-subtittle {
   position: absolute;
-  top: 29%;
+  top: 20%;
   font-size: 25px;
+}
+.hero-img{
+height:80vh;
+width: 100%;
+object-fit: cover;
+
 }
