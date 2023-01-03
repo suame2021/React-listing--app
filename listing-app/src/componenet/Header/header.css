@@ -1,12 +1,10 @@
 
-
-
 .hero-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Nunito Sans', sans-serif;
-  color: rgb(255, 255, 255);
+  color: var(--primary-color);
   font-style: italic;
   text-transform: uppercase;
 }
@@ -23,7 +21,7 @@
   font-size: 25px;
 }
 .hero-img{
-height:80vh;
+height:70vh;
 width: 100%;
 object-fit: cover;
 
