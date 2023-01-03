@@ -1,5 +1,6 @@
 import React from "react";
 import "./topbar.css";
+import {NavLink} from 'react-router-dom';
 
 const TopBar = () => {
   return (
@@ -13,10 +14,14 @@ const TopBar = () => {
 
       <div className="topbar-centre">
         <ul className="topbar-list">
-          <li className="topbar-list-item">HOME</li>
+          <li className="topbar-list-item">
+            <NavLink to="/">HOME</NavLink>
+          </li>
           <li className="topbar-list-item">ABOUT</li>
           <li className="topbar-list-item">CONTACT</li>
-          <li className="topbar-list-item">CREATE PROPERTY</li>
+          <li className="topbar-list-item">
+            <NavLink to="/create">CREATE PROPERTY </NavLink>
+          </li>
           <li className="topbar-list-item">LOGOUT</li>
         </ul>
       </div>
@@ -24,8 +29,8 @@ const TopBar = () => {
       <div className="topbar-right">
         <img
           className="topbar-profile-pic"
-          src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-        </img>
+          src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        ></img>
         <i className="topbar-search fas fa-search"></i>
       </div>
     </div>

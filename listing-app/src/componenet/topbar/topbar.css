@@ -51,3 +51,7 @@
   color: var(--primary-color);
   margin-left: 20px;
 }
+a,  a:visited, a:hover, a:active{
+  text-decoration:none;
+  color:inherit;
+}
